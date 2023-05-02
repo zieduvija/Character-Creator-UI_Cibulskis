@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8274e4fd7b790ff42ab8526d2b685367
+timeCreated: 1683011144
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Super Mario Bros. 2
+  fontNames:
+  - Super Mario Bros. 2
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
