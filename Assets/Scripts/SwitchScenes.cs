@@ -24,8 +24,14 @@ public class SwitchScenes : MonoBehaviour {
     
     public void Clothing()
     {
-        //Loads the scene named "Exit"
+        //Loads the scene named "Clothing"
         UnityEngine.SceneManagement.SceneManager.LoadScene("Clothing");
+    }
+    
+    public void Starts()
+    {
+        //Loads the scene named "Start"
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Start-screen");
     }
     
     
