@@ -54,8 +54,13 @@ public class testa : MonoBehaviour
             // Reset object's scale
             transform.localScale = originalScale;
 
+            // Parent the object to "Character" GameObject
+            Transform characterTransform = GameObject.Find("Character").transform;
+            transform.SetParent(characterTransform);
+
             // Lock the object in place
             isDragging = false;
         }
     }
+
 }
