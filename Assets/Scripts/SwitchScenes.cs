@@ -18,8 +18,7 @@ public class SwitchScenes : MonoBehaviour {
     
     public void Exit()
     {
-        //Loads the scene named "Exit"
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Exit");
+        Application.Quit();
     }
     
     public void Clothing()
